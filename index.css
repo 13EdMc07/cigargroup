@@ -1,88 +1,111 @@
-body{
-    background-color: rgb(3, 82, 3);
-    background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
-}
 
-header {
-    background-color: rgb(0, 0, 0);
-    background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
-    height: 186px;
-}
-
-#logo {
-    height: 250px;
-    width: 295px;
-    margin-left: 34%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-
-}
-
-#times {
-    background-color: rgb(247, 242, 242);
-    background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
-    border-collapse: collapse;
-    margin-top: 5%;
-    margin-left: 17%;
-    text-align: center;
-}
-
-#times table  {
-    border: 2px solid black;
-  }
-
-  #times td  {
-    border: 2px solid black;
-  }
-
-  #times th  {
-    border: 2px solid black;
-    width: 160px;
-  }
-
-  #updateTrains {
-    background-color: rgb(247, 242, 242);
-    background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
-   
-  }
-
-  #updateTrains h1 {
-      padding-top: 5px;
-      text-align: center;
-      font-size: 25px;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-  .container {
-      margin-top: 3%;
-      padding: 0%;
-      border-style: groove;
-      border-color: black;
-  }
-  .container input{
-      width: 100%;
-      clear: both;
-  }
-
-  .container span {
-      color: black;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-size: 20px;
-  }
-
-  #submit {
-      margin-left: 39%;
-      margin-top: 5px;
-      background-color: black;
-      color: green;
-      border-radius: 7px;
-      width: 150px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-  }
-
-  #submit:hover {
-      background-color: darkgreen;
-      color: goldenrod;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+            body{
+                font-family: 'Saira Semi Condensed', sans-serif;
+            
+                background-color: #047888;
+            background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+            }
+            
+            header {
+                background-color: #000d09;
+                background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");  
+                height: 160px;
+                color: white;
+                font-size: 25px;
+                text-align: center;
+                padding-top: 4%;
+            
+            }
+            
+            #logo {
+                height: 250px;
+                width: 295px;
+                margin-left: 34%;
+                margin-top: 0%;
+                margin-bottom: 0%;
+            
+            }
+            
+            #times {
+                background-color: #000d09;
+                background-image: url("https://www.transparenttextures.com/patterns/black-paper.png"); margin-top: 5%;
+                margin-left: 17%;
+                text-align: center;
+                color: white;
+            }
+            
+            #times table  {
+                border: 2px solid black;
+              }
+            
+              #times td  {
+                border: 2px solid black;
+              }
+            
+              #times th  {
+                border: 2px solid black;
+                width: 160px;
+              }
+            
+              
+              #updateTrains h1 {
+                  padding-top: 5px;
+                  text-align: center;
+                  font-size: 25px;
+                  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              }
+            
+              #updateData h1 {
+                margin-left: 30.5%;
+            }
+            
+            #updateData span {
+                color: white;
+            }
+            
+              .container {
+                background-color: #000d09;
+                background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+                margin-top: 3%;
+                padding: 0%;
+                border-style: groove;
+                border-color: black;
+                color: white;
+              }
+            
+              .container input{
+                  width: 100%;
+                  clear: both;
+                  margin-bottom: 2%;
+              }
+            
+              .container span {
+                  color: black;
+                  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                  font-size: 20px;
+              }
+            
+              #submit {
+                  margin-left: 39%;
+                  margin-top: 5px;
+                  background-color: #047888;
+                  color: rgb(8, 8, 8);
+                  border-radius: 7px;
+                  width: 150px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+              }
+            
+              #submit:hover {
+                  background-color: rgb(3, 3, 3);
+                  color: #047888;
+                  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              }
+            
+              #foot {
+                margin-top: 2%;
+                background-color: #000d09;
+                background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+               
+            
+              }
