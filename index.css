@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(3, 82, 3);
+    background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
+    height: 186px;
+}
+
+#logo {
+    height: 250px;
+    width: 295px;
+    margin-left: 34%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+#times {
+    background-color: rgb(247, 242, 242);
+    background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
+    border-collapse: collapse;
+    margin-top: 5%;
+    margin-left: 17%;
+    text-align: center;
+}
+
+#times table  {
+    border: 2px solid black;
+  }
+
+  #times td  {
+    border: 2px solid black;
+  }
+
+  #times th  {
+    border: 2px solid black;
+    width: 160px;
+  }
+
+  #updateTrains {
+    background-color: rgb(247, 242, 242);
+    background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png");
+   
+  }
+
+  #updateTrains h1 {
+      padding-top: 5px;
+      text-align: center;
+      font-size: 25px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .container {
+      margin-top: 3%;
+      padding: 0%;
+      border-style: groove;
+      border-color: black;
+  }
+  .container input{
+      width: 100%;
+      clear: both;
+  }
+
+  .container span {
+      color: black;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 20px;
+  }
+
+  #submit {
+      margin-left: 39%;
+      margin-top: 5px;
+      background-color: black;
+      color: green;
+      border-radius: 7px;
+      width: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+
+  #submit:hover {
+      background-color: darkgreen;
+      color: goldenrod;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
