@@ -16,13 +16,54 @@
 </head>
 <body>
 
-
-
-
-
-
-
+        <container id="CurrentEmployees">   
+            <h3> Current Employees</h3>                        
+                <table id="times">
+                    <thead>
+                        <tr>
+                            <th>Employee Name</th> 
+                            <th>Role</th> 
+                            <th>Start Date</th> 
+                            <th>Months Worked</th> 
+                            <th>Monthly Rate ($)</th>
+                            <th>Total Billed ($)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
     
+                        </tr>    
+                    </tbody>
+                </table>
+            </container>
+    
+    
+            <div class="container">
+                <form id="updateData">
+                    <h1>Update Employee Data</h1>
+                    <span>Employee Name <input id="EmployeeName" type="text" name="Employee Name"> </span>
+                    <br>
+                    <span>Role<input id="Role" type="text" name="Role"> </span>
+                    <br>
+                    <span>Start Date <input id="StartDate" type="text" name="Start Date"> </span>
+                    <br>
+                    <span>Months Worked<input id="MonthsWorked" type="text" name="Months Worked"> </span>
+                    <br>
+                    <span>Monthly Rate<input id="MonthlyRate" type="text" name="Role"> </span>
+                    <br>
+                    <span>Total Billed<input id="TotalBilled" type="text" name="Role"> </span>
+
+
+                        <button id="submit">Submit Changes</button>                                
+                </form>
+            </div>
+
+
+
+
+
+
+
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
