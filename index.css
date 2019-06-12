@@ -13,18 +13,16 @@
                 color: white;
                 font-size: 25px;
                 text-align: center;
+                padding-top: 4%;            
+            }
+
+            #CurrentEmployees h3 {
+                text-align: center;
                 padding-top: 4%;
-            
+                color: black;
+                font-size: 38px;
             }
             
-            #logo {
-                height: 250px;
-                width: 295px;
-                margin-left: 34%;
-                margin-top: 0%;
-                margin-bottom: 0%;
-            
-            }
             
             #times {
                 background-color: #000d09;
@@ -32,6 +30,7 @@
                 margin-left: 14%;
                 text-align: center;
                 color: white;
+                margin-top: 0%;
             }
             
             #times table  {
