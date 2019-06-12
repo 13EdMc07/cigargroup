@@ -29,7 +29,7 @@
             #times {
                 background-color: #000d09;
                 background-image: url("https://www.transparenttextures.com/patterns/black-paper.png"); margin-top: 5%;
-                margin-left: 17%;
+                margin-left: 14%;
                 text-align: center;
                 color: white;
             }
@@ -86,7 +86,7 @@
               }
             
               #submit {
-                  margin-left: 39%;
+                  margin-left: 43%;
                   margin-top: 5px;
                   background-color: #047888;
                   color: rgb(8, 8, 8);
@@ -107,5 +107,46 @@
                 background-color: #000d09;
                 background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
                
+            }
+
+            #contributors p {
+                color: white;
+                font-size: 23px;
+
+
+            }
             
-              }
+            #contributors {
+                text-align: center;
+            }
+
+            #contributors a {
+                color: white;
+                font-size: 19px;
+                margin-left: 5px;
+                margin-right: 2px;
+            }
+
+            #contributors a:hover {
+                color: #047888;
+                font-size: 19px;
+                
+            }
+
+            input[type="text"], textarea {
+
+                background-color : #3d3c3c; 
+            }
+
+            input[type="number"], textarea {
+
+                background-color : #3d3c3c; }
+
+            input[type="date"], textarea {
+
+                background-color : #3d3c3c; }
+
+
+
+
+
