@@ -23,7 +23,7 @@ $("#submit").on("click", function(event){
   //Get values of the name, role, start date, & rate
   empName = $("#EmployeeName").val().trim();
   empRole = $("#Role").val().trim();
-  empStart = $("#StartDate").val().trim();
+  empStart = moment($("#StartDate").val()).format("LL");
   empRate = $("#MonthlyRate").val().trim();
 
   console.log(empName + " " + empRole + " " + empStart + " " + empRate);
